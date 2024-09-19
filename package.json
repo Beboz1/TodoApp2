@@ -1,0 +1,15 @@
+{
+  "name": "todoapp2",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "bebo",
+  "license": "ISC",
+  "description": "This is a todo app made with electron and react",
+  "devDependencies": {
+    "electron": "^32.1.0"
+  }
+}

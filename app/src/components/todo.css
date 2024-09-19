@@ -1,0 +1,23 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3 ,1fr);
+    width: 700px;
+    height: 700px;
+}
+.container div{
+    border: 3px solid orange;
+    width: auto;
+    height: auto;
+}
+
+.description{
+    font-size: 15px;
+    height:auto;
+    height:175px;
+}
+.title{
+    font-size: 25px;
+    height:60px;
+    width: 200px;
+}
