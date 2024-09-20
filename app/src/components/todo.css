@@ -1,9 +1,14 @@
 .container{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 2px solid black;
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3 ,1fr);
     width: 700px;
     height: 700px;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 .container div{
     border: 3px solid orange;
@@ -13,11 +18,8 @@
 
 .description{
     font-size: 15px;
-    height:auto;
-    height:175px;
 }
 .title{
     font-size: 25px;
-    height:60px;
-    width: 200px;
+    border-bottom: 2px solid purple;
 }
