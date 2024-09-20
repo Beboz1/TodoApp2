@@ -1,19 +1,27 @@
 .Form{
+    background-color: rgb(4, 55, 100);
     display: grid;
     justify-content: center;
     height: auto;
     width: 400px;
     grid-column-start: 5;
     grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 1;
     border: 4px double rgb(94, 128, 0);
     border-radius: 15px;
+}
+.deletebox{
+    border-top: red 2px solid;
+    height: 200px;
+}
+.checkbox{
+    border-top: green 2px solid;
+    height: 200px;
 }
 label{
     margin: 4px;
 }
 button{
+    margin-bottom: 3px;
     background: white;
     width: 160px;
     height: 40px;

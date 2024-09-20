@@ -1,6 +1,9 @@
+body{
+    padding: 5px;
+    background-color:cornflowerblue;
+    color: white;
+}
 .containerM{
-    border: 2px solid black;
     display:grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-columns: repeat(2, 1fr);
 }
